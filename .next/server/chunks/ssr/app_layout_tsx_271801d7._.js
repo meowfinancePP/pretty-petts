@@ -1,0 +1,3 @@
+module.exports=[33290,a=>{"use strict";var b=a.i(7997);function c({children:a}){return(0,b.jsxs)("html",{lang:"ru",className:"scroll-smooth",children:[(0,b.jsx)("head",{children:(0,b.jsx)("meta",{name:"viewport",content:"width=device-width, initial-scale=1"})}),(0,b.jsx)("body",{className:"antialiased",children:a})]})}a.s(["default",()=>c,"metadata",0,{title:"PrettyPetts",description:"NFT для питомцев"}])}];
+
+//# sourceMappingURL=app_layout_tsx_271801d7._.js.map
