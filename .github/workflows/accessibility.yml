@@ -1,0 +1,10 @@
+name: Accessibility Checks
+on: [push, pull_request]
+
+jobs:
+  wcag-verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: npm ci
+      - run: npm run test:accessibility

@@ -1,0 +1,17 @@
+{
+  "timestamp": "2025-12-27T02:41:33.523Z",
+  "valid": 15,
+  "missing": [
+    {
+      "path": "/settings",
+      "name": "Settings",
+      "reason": "Folder not found"
+    }
+  ],
+  "broken": [],
+  "unexpected": [
+    "/create/create",
+    "/pet/[id]"
+  ],
+  "allGood": false
+}

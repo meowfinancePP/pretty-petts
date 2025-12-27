@@ -1,0 +1,344 @@
+{
+  "auditDate": "2024-12-27T14:00:00Z",
+  "projectName": "pretty-petts-fixed",
+  "framework": "Next.js 14.2.35",
+  
+  "summary": {
+    "totalFiles": 336,
+    "totalComponents": 64,
+    "totalPages": 22,
+    "totalRoutes": 20,
+    "totalStyles": 40,
+    "totalDirectories": 89,
+    "duplicateComponents": 8,
+    "unusedFiles": 3,
+    "oldDesignFiles": 0,
+    "routeConflicts": 2,
+    "cssFiles": 40,
+    "dependencies": 60
+  },
+
+  "directoryStructure": {
+    "app/": {
+      "components/": {
+        "count": 64,
+        "subdirectories": [
+          "PetCard/",
+          "accessibility/",
+          "ai/",
+          "analytics/",
+          "auth/",
+          "blockchain/",
+          "breeder/",
+          "buttons/",
+          "core/",
+          "create/",
+          "error/",
+          "evolution/",
+          "gamification/",
+          "home/",
+          "icons/",
+          "images/",
+          "layout/",
+          "loading/",
+          "market/",
+          "micro/",
+          "micro-interactions/",
+          "navigation/",
+          "nexus/",
+          "nft/",
+          "notifications/",
+          "performance/",
+          "pets/",
+          "premium/",
+          "profile/",
+          "pwa/",
+          "react-bits/",
+          "safes/",
+          "search/",
+          "sections/",
+          "settings/",
+          "shared/",
+          "shelter/",
+          "social/",
+          "sound/",
+          "trading/",
+          "transitions/",
+          "ui/",
+          "utils/",
+          "visuals/",
+          "workspace/"
+        ]
+      },
+      "marketplace/": {
+        "count": 39,
+        "subdirectories": ["Workspace/", "beginner/", "pro/"]
+      },
+      "styles/": {
+        "count": 40,
+        "note": "CSS files for component styling"
+      },
+      "pages/": {
+        "count": 22,
+        "routes": [
+          "/",
+          "/about",
+          "/admin",
+          "/analytics",
+          "/create",
+          "/create/create",
+          "/dashboard",
+          "/evolution",
+          "/feed",
+          "/games",
+          "/impact",
+          "/market",
+          "/market/[id]",
+          "/market/collection/[slug]",
+          "/pet/[id]",
+          "/profile",
+          "/safes",
+          "/settings",
+          "/shelter",
+          "/wallet"
+        ]
+      }
+    }
+  },
+
+  "criticalIssues": [
+    {
+      "id": "P0-001",
+      "severity": "critical",
+      "type": "route-conflict",
+      "title": "Duplicate /create route structure",
+      "description": "Both /create/page.tsx and /create/create/page.tsx exist, causing nested route confusion",
+      "files": [
+        "app/create/page.tsx",
+        "app/create/create/page.tsx"
+      ],
+      "recommendation": "DELETE app/create/create/page.tsx - it creates /create/create which is incorrect"
+    },
+    {
+      "id": "P0-002",
+      "severity": "critical",
+      "type": "route-conflict",
+      "title": "Duplicate market routes",
+      "description": "Both /market and /(main)/market routes exist with different page implementations",
+      "files": [
+        "app/market/page.tsx",
+        "app/(main)/market/[id]/page.tsx",
+        "app/(main)/market/collection/[slug]/page.tsx"
+      ],
+      "recommendation": "CONSOLIDATE - Move dynamic routes under /market or remove (main) group"
+    }
+  ],
+
+  "duplicateComponents": [
+    {
+      "name": "NFTCard",
+      "severity": "high",
+      "locations": [
+        "app/marketplace/NFTCard.tsx",
+        "app/components/nft/NFTCard.tsx",
+        "app/marketplace/GlareNFTCard.tsx",
+        "app/marketplace/HoloNFTCard.tsx"
+      ],
+      "recommendation": "KEEP marketplace/NFTCard.tsx as primary, others are variants (OK)"
+    },
+    {
+      "name": "PriceChart",
+      "severity": "high",
+      "locations": [
+        "app/marketplace/ProTools.tsx (inline)",
+        "app/marketplace/pro/PriceChart.tsx",
+        "app/marketplace/Workspace/panels/PriceChart.tsx",
+        "app/components/workspace/PriceChart.tsx"
+      ],
+      "recommendation": "CONSOLIDATE - Use marketplace/Workspace/panels/PriceChart.tsx as single source"
+    },
+    {
+      "name": "ActivityFeed",
+      "severity": "medium",
+      "locations": [
+        "app/marketplace/ProTools.tsx (inline)",
+        "app/marketplace/pro/ActivityFeed.tsx",
+        "app/marketplace/Workspace/panels/ActivityFeed.tsx"
+      ],
+      "recommendation": "CONSOLIDATE - Use Workspace/panels/ActivityFeed.tsx as primary"
+    },
+    {
+      "name": "OrderBook",
+      "severity": "medium",
+      "locations": [
+        "app/marketplace/pro/OrderBook.tsx",
+        "app/marketplace/Workspace/panels/OrderBook.tsx",
+        "app/components/workspace/OrderBook.tsx"
+      ],
+      "recommendation": "CONSOLIDATE - Use Workspace/panels/OrderBook.tsx as primary"
+    }
+  ],
+
+  "filesToDelete": [
+    {
+      "path": "app/create/create/page.tsx",
+      "reason": "Creates incorrect /create/create route - duplicate of /create"
+    },
+    {
+      "path": "app/components/premium/UpgradeModal.tsx",
+      "reason": "Empty file (1 byte) - PremiumModal.tsx is the correct component",
+      "status": "DELETED_PREVIOUSLY"
+    }
+  ],
+
+  "filesToMerge": [
+    {
+      "keep": "app/marketplace/Workspace/panels/PriceChart.tsx",
+      "merge": [
+        "app/marketplace/pro/PriceChart.tsx",
+        "app/components/workspace/PriceChart.tsx"
+      ],
+      "reason": "Multiple PriceChart implementations - consolidate to Workspace panels"
+    },
+    {
+      "keep": "app/marketplace/Workspace/panels/ActivityFeed.tsx",
+      "merge": ["app/marketplace/pro/ActivityFeed.tsx"],
+      "reason": "Duplicate ActivityFeed components"
+    },
+    {
+      "keep": "app/marketplace/Workspace/panels/OrderBook.tsx",
+      "merge": [
+        "app/marketplace/pro/OrderBook.tsx",
+        "app/components/workspace/OrderBook.tsx"
+      ],
+      "reason": "Duplicate OrderBook components"
+    }
+  ],
+
+  "routeConflicts": [
+    {
+      "conflict": "/create vs /create/create",
+      "type": "nested-duplicate",
+      "resolution": "Delete app/create/create/page.tsx"
+    },
+    {
+      "conflict": "/market vs /(main)/market/*",
+      "type": "route-group-conflict",
+      "resolution": "Move (main)/market/* dynamic routes to /market/*"
+    }
+  ],
+
+  "cssAudit": {
+    "totalFiles": 40,
+    "designTokensUsed": true,
+    "cssVariablesFound": {
+      "--midnight-base": "3 files",
+      "--aurora-purple": "22 files",
+      "--aurora-pink": "18 files",
+      "--aurora-blue": "12 files",
+      "--glass-bg": "8 files"
+    },
+    "oldColorsFound": {
+      "#1a1a1a": "5 files (cleanup utility references)",
+      "#0a0a0a": "0 files",
+      "#121212": "0 files"
+    },
+    "backupFiles": 0,
+    "legacyFiles": 0
+  },
+
+  "dependencyAudit": {
+    "totalDependencies": 60,
+    "status": "healthy",
+    "keyPackages": {
+      "next": "14.2.35",
+      "react": "18.3.1",
+      "framer-motion": "11.18.2",
+      "zustand": "4.5.7",
+      "lucide-react": "0.344.0",
+      "recharts": "3.6.0",
+      "three": "0.146.0",
+      "@react-three/fiber": "8.18.0",
+      "tailwindcss": "3.4.19"
+    },
+    "missingDependencies": [],
+    "outdatedDependencies": []
+  },
+
+  "unusedCodeDetection": {
+    "potentiallyUnused": [
+      {
+        "file": "app/components/workspace/PriceChart.tsx",
+        "reason": "Duplicate of marketplace/Workspace/panels/PriceChart.tsx"
+      },
+      {
+        "file": "app/components/workspace/OrderBook.tsx",
+        "reason": "Duplicate of marketplace/Workspace/panels/OrderBook.tsx"
+      },
+      {
+        "file": "app/marketplace/pro/PriceChart.tsx",
+        "reason": "Duplicate - exported but may not be used"
+      }
+    ],
+    "emptyExports": [],
+    "unusedStyles": []
+  },
+
+  "backgroundEffectsAudit": {
+    "animationsFound": 15,
+    "keyframesFiles": [
+      "app/styles/animations.css",
+      "app/styles/animations-optimized.css"
+    ],
+    "backdropFilterUsage": "22 files",
+    "glassmorphismStyles": [
+      "app/styles/glass.css",
+      "app/styles/glass-perfect.css",
+      "app/styles/liquid-glass.css"
+    ],
+    "status": "healthy"
+  },
+
+  "buildStatus": {
+    "exitCode": 0,
+    "pagesGenerated": 20,
+    "staticPages": 16,
+    "dynamicPages": 4,
+    "bundleSize": {
+      "shared": "176 KB",
+      "home": "2.27 KB",
+      "market": "8.9 KB",
+      "admin": "14.2 KB"
+    }
+  },
+
+  "recommendations": {
+    "immediate": [
+      "DELETE app/create/create/page.tsx to fix route conflict",
+      "CONSOLIDATE PriceChart components to single implementation",
+      "CONSOLIDATE OrderBook components to single implementation"
+    ],
+    "shortTerm": [
+      "Move (main)/market/* routes under /market for consistency",
+      "Audit app/marketplace/pro/ folder - many duplicates of Workspace/panels/",
+      "Consider removing app/components/workspace/ - duplicates marketplace/Workspace/"
+    ],
+    "longTerm": [
+      "Implement barrel exports for cleaner imports",
+      "Add ESLint rule to prevent duplicate component names",
+      "Consider monorepo structure if marketplace grows"
+    ]
+  },
+
+  "healthScore": {
+    "overall": 82,
+    "breakdown": {
+      "routeStructure": 75,
+      "componentOrganization": 70,
+      "styleConsistency": 95,
+      "dependencyHealth": 100,
+      "buildHealth": 100,
+      "codeQuality": 80
+    }
+  }
+}

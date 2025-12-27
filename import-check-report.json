@@ -1,0 +1,2368 @@
+{
+  "timestamp": "2025-12-27T02:35:44.898Z",
+  "totalIssues": 337,
+  "errors": 0,
+  "warnings": 0,
+  "info": 337,
+  "issues": [
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\components\\AdminSidebar.tsx",
+      "import": "Home",
+      "severity": "info",
+      "message": "Potentially unused import: Home"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\components\\AdminSidebar.tsx",
+      "import": "PieChart",
+      "severity": "info",
+      "message": "Potentially unused import: PieChart"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\components\\AdminSidebar.tsx",
+      "import": "Cpu",
+      "severity": "info",
+      "message": "Potentially unused import: Cpu"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\components\\AdminSidebar.tsx",
+      "import": "Server",
+      "severity": "info",
+      "message": "Potentially unused import: Server"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\components\\AdminSidebar.tsx",
+      "import": "Globe",
+      "severity": "info",
+      "message": "Potentially unused import: Globe"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\components\\AdminSidebar.tsx",
+      "import": "Key",
+      "severity": "info",
+      "message": "Potentially unused import: Key"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\components\\AdminSidebar.tsx",
+      "import": "Eye",
+      "severity": "info",
+      "message": "Potentially unused import: Eye"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\components\\AuditLog.tsx",
+      "import": "Filter",
+      "severity": "info",
+      "message": "Potentially unused import: Filter"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\components\\RealTimeAnalytics.tsx",
+      "import": "LineChart",
+      "severity": "info",
+      "message": "Potentially unused import: LineChart"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\components\\RealTimeAnalytics.tsx",
+      "import": "BarChart3",
+      "severity": "info",
+      "message": "Potentially unused import: BarChart3"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\components\\RealTimeAnalytics.tsx",
+      "import": "DollarSign",
+      "severity": "info",
+      "message": "Potentially unused import: DollarSign"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\components\\SecurityDashboard.tsx",
+      "import": "Key",
+      "severity": "info",
+      "message": "Potentially unused import: Key"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\components\\SecurityDashboard.tsx",
+      "import": "Eye",
+      "severity": "info",
+      "message": "Potentially unused import: Eye"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\components\\SecurityDashboard.tsx",
+      "import": "Fingerprint",
+      "severity": "info",
+      "message": "Potentially unused import: Fingerprint"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\components\\SecurityDashboard.tsx",
+      "import": "Cctv",
+      "severity": "info",
+      "message": "Potentially unused import: Cctv"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\components\\SecurityDashboard.tsx",
+      "import": "XCircle",
+      "severity": "info",
+      "message": "Potentially unused import: XCircle"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\components\\SecurityDashboard.tsx",
+      "import": "Users",
+      "severity": "info",
+      "message": "Potentially unused import: Users"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\components\\SecurityDashboard.tsx",
+      "import": "Network",
+      "severity": "info",
+      "message": "Potentially unused import: Network"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\components\\SecurityDashboard.tsx",
+      "import": "Database",
+      "severity": "info",
+      "message": "Potentially unused import: Database"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\components\\SecurityDashboard.tsx",
+      "import": "ShieldAlert",
+      "severity": "info",
+      "message": "Potentially unused import: ShieldAlert"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\components\\StatsOverview.tsx",
+      "import": "Zap",
+      "severity": "info",
+      "message": "Potentially unused import: Zap"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\components\\StatsOverview.tsx",
+      "import": "Database",
+      "severity": "info",
+      "message": "Potentially unused import: Database"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\components\\SystemHealth.tsx",
+      "import": "Cloud",
+      "severity": "info",
+      "message": "Potentially unused import: Cloud"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\components\\SystemHealth.tsx",
+      "import": "ShieldCheck",
+      "severity": "info",
+      "message": "Potentially unused import: ShieldCheck"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\components\\TransactionMonitor.tsx",
+      "import": "Filter",
+      "severity": "info",
+      "message": "Potentially unused import: Filter"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\components\\TransactionMonitor.tsx",
+      "import": "Eye",
+      "severity": "info",
+      "message": "Potentially unused import: Eye"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\components\\TransactionMonitor.tsx",
+      "import": "EyeOff",
+      "severity": "info",
+      "message": "Potentially unused import: EyeOff"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\components\\TransactionMonitor.tsx",
+      "import": "CheckCircle",
+      "severity": "info",
+      "message": "Potentially unused import: CheckCircle"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\components\\TransactionMonitor.tsx",
+      "import": "XCircle",
+      "severity": "info",
+      "message": "Potentially unused import: XCircle"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\components\\TransactionMonitor.tsx",
+      "import": "Clock",
+      "severity": "info",
+      "message": "Potentially unused import: Clock"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\components\\TransactionMonitor.tsx",
+      "import": "AlertCircle",
+      "severity": "info",
+      "message": "Potentially unused import: AlertCircle"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\components\\TransactionMonitor.tsx",
+      "import": "TrendingUp",
+      "severity": "info",
+      "message": "Potentially unused import: TrendingUp"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\components\\TransactionMonitor.tsx",
+      "import": "Hash",
+      "severity": "info",
+      "message": "Potentially unused import: Hash"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\components\\TransactionMonitor.tsx",
+      "import": "Wallet",
+      "severity": "info",
+      "message": "Potentially unused import: Wallet"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\components\\TransactionMonitor.tsx",
+      "import": "ExternalLink",
+      "severity": "info",
+      "message": "Potentially unused import: ExternalLink"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\components\\TransactionMonitor.tsx",
+      "import": "Shield",
+      "severity": "info",
+      "message": "Potentially unused import: Shield"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\components\\UserManagement.tsx",
+      "import": "UserMinus",
+      "severity": "info",
+      "message": "Potentially unused import: UserMinus"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\components\\UserManagement.tsx",
+      "import": "Shield",
+      "severity": "info",
+      "message": "Potentially unused import: Shield"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\components\\UserManagement.tsx",
+      "import": "Phone",
+      "severity": "info",
+      "message": "Potentially unused import: Phone"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\components\\UserManagement.tsx",
+      "import": "Calendar",
+      "severity": "info",
+      "message": "Potentially unused import: Calendar"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\components\\UserManagement.tsx",
+      "import": "Globe",
+      "severity": "info",
+      "message": "Potentially unused import: Globe"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\page.tsx",
+      "import": "useRef",
+      "severity": "info",
+      "message": "Potentially unused import: useRef"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\page.tsx",
+      "import": "useScroll",
+      "severity": "info",
+      "message": "Potentially unused import: useScroll"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\page.tsx",
+      "import": "useTransform",
+      "severity": "info",
+      "message": "Potentially unused import: useTransform"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\page.tsx",
+      "import": "BarChart3",
+      "severity": "info",
+      "message": "Potentially unused import: BarChart3"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\page.tsx",
+      "import": "Settings",
+      "severity": "info",
+      "message": "Potentially unused import: Settings"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\page.tsx",
+      "import": "AlertCircle",
+      "severity": "info",
+      "message": "Potentially unused import: AlertCircle"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\page.tsx",
+      "import": "DollarSign",
+      "severity": "info",
+      "message": "Potentially unused import: DollarSign"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\page.tsx",
+      "import": "Database",
+      "severity": "info",
+      "message": "Potentially unused import: Database"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\page.tsx",
+      "import": "Globe",
+      "severity": "info",
+      "message": "Potentially unused import: Globe"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\page.tsx",
+      "import": "Lock",
+      "severity": "info",
+      "message": "Potentially unused import: Lock"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\page.tsx",
+      "import": "Eye",
+      "severity": "info",
+      "message": "Potentially unused import: Eye"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\page.tsx",
+      "import": "FileText",
+      "severity": "info",
+      "message": "Potentially unused import: FileText"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\page.tsx",
+      "import": "CreditCard",
+      "severity": "info",
+      "message": "Potentially unused import: CreditCard"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\page.tsx",
+      "import": "Calendar",
+      "severity": "info",
+      "message": "Potentially unused import: Calendar"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\page.tsx",
+      "import": "Filter",
+      "severity": "info",
+      "message": "Potentially unused import: Filter"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\page.tsx",
+      "import": "Search",
+      "severity": "info",
+      "message": "Potentially unused import: Search"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\page.tsx",
+      "import": "Upload",
+      "severity": "info",
+      "message": "Potentially unused import: Upload"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\page.tsx",
+      "import": "HelpCircle",
+      "severity": "info",
+      "message": "Potentially unused import: HelpCircle"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\page.tsx",
+      "import": "ChevronRight",
+      "severity": "info",
+      "message": "Potentially unused import: ChevronRight"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\page.tsx",
+      "import": "ChevronLeft",
+      "severity": "info",
+      "message": "Potentially unused import: ChevronLeft"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\page.tsx",
+      "import": "LogOut",
+      "severity": "info",
+      "message": "Potentially unused import: LogOut"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\page.tsx",
+      "import": "Home",
+      "severity": "info",
+      "message": "Potentially unused import: Home"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\page.tsx",
+      "import": "UserCheck",
+      "severity": "info",
+      "message": "Potentially unused import: UserCheck"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\page.tsx",
+      "import": "Server",
+      "severity": "info",
+      "message": "Potentially unused import: Server"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\page.tsx",
+      "import": "Key",
+      "severity": "info",
+      "message": "Potentially unused import: Key"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\page.tsx",
+      "import": "PieChart",
+      "severity": "info",
+      "message": "Potentially unused import: PieChart"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\page.tsx",
+      "import": "ShoppingBag",
+      "severity": "info",
+      "message": "Potentially unused import: ShoppingBag"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\page.tsx",
+      "import": "MessageSquare",
+      "severity": "info",
+      "message": "Potentially unused import: MessageSquare"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\page.tsx",
+      "import": "Heart",
+      "severity": "info",
+      "message": "Potentially unused import: Heart"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\page.tsx",
+      "import": "Star",
+      "severity": "info",
+      "message": "Potentially unused import: Star"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\page.tsx",
+      "import": "Award",
+      "severity": "info",
+      "message": "Potentially unused import: Award"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\page.tsx",
+      "import": "Crown",
+      "severity": "info",
+      "message": "Potentially unused import: Crown"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\page.tsx",
+      "import": "Sparkles",
+      "severity": "info",
+      "message": "Potentially unused import: Sparkles"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\page.tsx",
+      "import": "Target",
+      "severity": "info",
+      "message": "Potentially unused import: Target"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\page.tsx",
+      "import": "Rocket",
+      "severity": "info",
+      "message": "Potentially unused import: Rocket"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\page.tsx",
+      "import": "Wallet",
+      "severity": "info",
+      "message": "Potentially unused import: Wallet"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\page.tsx",
+      "import": "Coins",
+      "severity": "info",
+      "message": "Potentially unused import: Coins"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\page.tsx",
+      "import": "BarChart",
+      "severity": "info",
+      "message": "Potentially unused import: BarChart"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\page.tsx",
+      "import": "LineChart",
+      "severity": "info",
+      "message": "Potentially unused import: LineChart"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\page.tsx",
+      "import": "CheckSquare",
+      "severity": "info",
+      "message": "Potentially unused import: CheckSquare"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\page.tsx",
+      "import": "LayoutDashboard",
+      "severity": "info",
+      "message": "Potentially unused import: LayoutDashboard"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\page.tsx",
+      "import": "Grid",
+      "severity": "info",
+      "message": "Potentially unused import: Grid"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\page.tsx",
+      "import": "List",
+      "severity": "info",
+      "message": "Potentially unused import: List"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\page.tsx",
+      "import": "Grid3x3",
+      "severity": "info",
+      "message": "Potentially unused import: Grid3x3"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\page.tsx",
+      "import": "CalendarDays",
+      "severity": "info",
+      "message": "Potentially unused import: CalendarDays"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\page.tsx",
+      "import": "BellRing",
+      "severity": "info",
+      "message": "Potentially unused import: BellRing"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\page.tsx",
+      "import": "ShieldHalf",
+      "severity": "info",
+      "message": "Potentially unused import: ShieldHalf"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\page.tsx",
+      "import": "KeyRound",
+      "severity": "info",
+      "message": "Potentially unused import: KeyRound"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\page.tsx",
+      "import": "Network",
+      "severity": "info",
+      "message": "Potentially unused import: Network"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\page.tsx",
+      "import": "ServerCog",
+      "severity": "info",
+      "message": "Potentially unused import: ServerCog"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\page.tsx",
+      "import": "Cctv",
+      "severity": "info",
+      "message": "Potentially unused import: Cctv"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\page.tsx",
+      "import": "Fingerprint",
+      "severity": "info",
+      "message": "Potentially unused import: Fingerprint"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\page.tsx",
+      "import": "ScanFace",
+      "severity": "info",
+      "message": "Potentially unused import: ScanFace"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\page.tsx",
+      "import": "Binary",
+      "severity": "info",
+      "message": "Potentially unused import: Binary"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\page.tsx",
+      "import": "HardDrive",
+      "severity": "info",
+      "message": "Potentially unused import: HardDrive"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\page.tsx",
+      "import": "MemoryStick",
+      "severity": "info",
+      "message": "Potentially unused import: MemoryStick"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\page.tsx",
+      "import": "Wifi",
+      "severity": "info",
+      "message": "Potentially unused import: Wifi"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\page.tsx",
+      "import": "WifiOff",
+      "severity": "info",
+      "message": "Potentially unused import: WifiOff"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\page.tsx",
+      "import": "Cloud",
+      "severity": "info",
+      "message": "Potentially unused import: Cloud"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\page.tsx",
+      "import": "CloudOff",
+      "severity": "info",
+      "message": "Potentially unused import: CloudOff"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\page.tsx",
+      "import": "Router",
+      "severity": "info",
+      "message": "Potentially unused import: Router"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\page.tsx",
+      "import": "ShieldAlert",
+      "severity": "info",
+      "message": "Potentially unused import: ShieldAlert"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\page.tsx",
+      "import": "ShieldQuestion",
+      "severity": "info",
+      "message": "Potentially unused import: ShieldQuestion"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\page.tsx",
+      "import": "ShieldX",
+      "severity": "info",
+      "message": "Potentially unused import: ShieldX"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\page.tsx",
+      "import": "ShieldPlus",
+      "severity": "info",
+      "message": "Potentially unused import: ShieldPlus"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\page.tsx",
+      "import": "BadgeCheck",
+      "severity": "info",
+      "message": "Potentially unused import: BadgeCheck"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\page.tsx",
+      "import": "BadgeAlert",
+      "severity": "info",
+      "message": "Potentially unused import: BadgeAlert"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\page.tsx",
+      "import": "BadgePercent",
+      "severity": "info",
+      "message": "Potentially unused import: BadgePercent"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\page.tsx",
+      "import": "BadgeDollarSign",
+      "severity": "info",
+      "message": "Potentially unused import: BadgeDollarSign"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\page.tsx",
+      "import": "UserCog",
+      "severity": "info",
+      "message": "Potentially unused import: UserCog"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\page.tsx",
+      "import": "UserMinus",
+      "severity": "info",
+      "message": "Potentially unused import: UserMinus"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\page.tsx",
+      "import": "UserPlus",
+      "severity": "info",
+      "message": "Potentially unused import: UserPlus"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\admin\\page.tsx",
+      "import": "UserX",
+      "severity": "info",
+      "message": "Potentially unused import: UserX"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\analytics\\page.tsx",
+      "import": "TrendingDown",
+      "severity": "info",
+      "message": "Potentially unused import: TrendingDown"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\analytics\\page.tsx",
+      "import": "DollarSign",
+      "severity": "info",
+      "message": "Potentially unused import: DollarSign"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\analytics\\page.tsx",
+      "import": "Users",
+      "severity": "info",
+      "message": "Potentially unused import: Users"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\analytics\\page.tsx",
+      "import": "Calendar",
+      "severity": "info",
+      "message": "Potentially unused import: Calendar"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\analytics\\page.tsx",
+      "import": "Clock",
+      "severity": "info",
+      "message": "Potentially unused import: Clock"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\analytics\\page.tsx",
+      "import": "Eye",
+      "severity": "info",
+      "message": "Potentially unused import: Eye"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\analytics\\page.tsx",
+      "import": "ChevronRight",
+      "severity": "info",
+      "message": "Potentially unused import: ChevronRight"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\analytics\\page.tsx",
+      "import": "X",
+      "severity": "info",
+      "message": "Potentially unused import: X"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\analytics\\page.tsx",
+      "import": "LineChart",
+      "severity": "info",
+      "message": "Potentially unused import: LineChart"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\analytics\\page.tsx",
+      "import": "Line",
+      "severity": "info",
+      "message": "Potentially unused import: Line"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\analytics\\page.tsx",
+      "import": "BarChart",
+      "severity": "info",
+      "message": "Potentially unused import: BarChart"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\analytics\\page.tsx",
+      "import": "Bar",
+      "severity": "info",
+      "message": "Potentially unused import: Bar"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\analytics\\page.tsx",
+      "import": "Legend",
+      "severity": "info",
+      "message": "Potentially unused import: Legend"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\AccountSecurity.tsx",
+      "import": "AnimatePresence",
+      "severity": "info",
+      "message": "Potentially unused import: AnimatePresence"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\AccountSecurity.tsx",
+      "import": "Lock",
+      "severity": "info",
+      "message": "Potentially unused import: Lock"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\AccountSecurity.tsx",
+      "import": "Mail",
+      "severity": "info",
+      "message": "Potentially unused import: Mail"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\AccountSecurity.tsx",
+      "import": "UserCheck",
+      "severity": "info",
+      "message": "Potentially unused import: UserCheck"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\AccountSecurity.tsx",
+      "import": "Eye",
+      "severity": "info",
+      "message": "Potentially unused import: Eye"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\AccountSecurity.tsx",
+      "import": "BellOff",
+      "severity": "info",
+      "message": "Potentially unused import: BellOff"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\AccountSecurity.tsx",
+      "import": "ShieldOff",
+      "severity": "info",
+      "message": "Potentially unused import: ShieldOff"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\ai\\AIAssistant.tsx",
+      "import": "MessageCircle",
+      "severity": "info",
+      "message": "Potentially unused import: MessageCircle"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\ai\\AIAssistantWidget.tsx",
+      "import": "MessageCircle",
+      "severity": "info",
+      "message": "Potentially unused import: MessageCircle"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\ai\\AIAssistantWidget.tsx",
+      "import": "Sparkles",
+      "severity": "info",
+      "message": "Potentially unused import: Sparkles"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\ai\\AICat.tsx",
+      "import": "MessageCircle",
+      "severity": "info",
+      "message": "Potentially unused import: MessageCircle"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\ai\\Pet3DGenerator.tsx",
+      "import": "Image",
+      "severity": "info",
+      "message": "Potentially unused import: Image"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\ai\\Pet3DGenerator.tsx",
+      "import": "X",
+      "severity": "info",
+      "message": "Potentially unused import: X"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\ai\\Pet3DGenerator.tsx",
+      "import": "type AIGenerationOptions",
+      "severity": "info",
+      "message": "Potentially unused import: type AIGenerationOptions"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\ai\\Pet3DGenerator.tsx",
+      "import": "type GeneratedNFT",
+      "severity": "info",
+      "message": "Potentially unused import: type GeneratedNFT"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\ai\\StyleSelector.tsx",
+      "import": "Image",
+      "severity": "info",
+      "message": "Potentially unused import: Image"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\analytics\\PremiumAnalytics.tsx",
+      "import": "useEffect",
+      "severity": "info",
+      "message": "Potentially unused import: useEffect"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\analytics\\PremiumAnalytics.tsx",
+      "import": "DollarSign",
+      "severity": "info",
+      "message": "Potentially unused import: DollarSign"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\analytics\\PremiumAnalytics.tsx",
+      "import": "Users",
+      "severity": "info",
+      "message": "Potentially unused import: Users"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\analytics\\PremiumAnalytics.tsx",
+      "import": "Target",
+      "severity": "info",
+      "message": "Potentially unused import: Target"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\analytics\\PremiumAnalytics.tsx",
+      "import": "Calendar",
+      "severity": "info",
+      "message": "Potentially unused import: Calendar"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\analytics\\PremiumAnalytics.tsx",
+      "import": "Filter",
+      "severity": "info",
+      "message": "Potentially unused import: Filter"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\analytics\\PremiumAnalytics.tsx",
+      "import": "Activity",
+      "severity": "info",
+      "message": "Potentially unused import: Activity"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\analytics\\PremiumAnalytics.tsx",
+      "import": "Clock",
+      "severity": "info",
+      "message": "Potentially unused import: Clock"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\analytics\\PremiumAnalytics.tsx",
+      "import": "Star",
+      "severity": "info",
+      "message": "Potentially unused import: Star"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\analytics\\PremiumAnalytics.tsx",
+      "import": "BarChart",
+      "severity": "info",
+      "message": "Potentially unused import: BarChart"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\analytics\\PremiumAnalytics.tsx",
+      "import": "LineChart",
+      "severity": "info",
+      "message": "Potentially unused import: LineChart"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\blockchain\\TransactionToast.tsx",
+      "import": "useEffect",
+      "severity": "info",
+      "message": "Potentially unused import: useEffect"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\create\\AIGeneration.tsx",
+      "import": "AlertCircle",
+      "severity": "info",
+      "message": "Potentially unused import: AlertCircle"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\create\\DisneyCat.tsx",
+      "import": "HelpCircle",
+      "severity": "info",
+      "message": "Potentially unused import: HelpCircle"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\create\\DisneyCat.tsx",
+      "import": "Tag",
+      "severity": "info",
+      "message": "Potentially unused import: Tag"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\create\\MetadataForm.tsx",
+      "import": "AlertCircle",
+      "severity": "info",
+      "message": "Potentially unused import: AlertCircle"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\create\\MintPreview.tsx",
+      "import": "FileText",
+      "severity": "info",
+      "message": "Potentially unused import: FileText"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\create\\MintPreview.tsx",
+      "import": "Trait",
+      "severity": "info",
+      "message": "Potentially unused import: Trait"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\create\\UploadZone.tsx",
+      "import": "Image",
+      "severity": "info",
+      "message": "Potentially unused import: Image"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\create\\UploadZone.tsx",
+      "import": "ZoomIn",
+      "severity": "info",
+      "message": "Potentially unused import: ZoomIn"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\evolution\\EvolutionDashboard.tsx",
+      "import": "BarChart3",
+      "severity": "info",
+      "message": "Potentially unused import: BarChart3"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\evolution\\EvolutionDashboard.tsx",
+      "import": "Heart",
+      "severity": "info",
+      "message": "Potentially unused import: Heart"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\evolution\\EvolutionDashboard.tsx",
+      "import": "Code",
+      "severity": "info",
+      "message": "Potentially unused import: Code"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\evolution\\EvolutionDashboard.tsx",
+      "import": "type EvolutionCycle",
+      "severity": "info",
+      "message": "Potentially unused import: type EvolutionCycle"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\index.ts",
+      "import": "SpotlightCard",
+      "severity": "info",
+      "message": "Potentially unused import: SpotlightCard"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\index.ts",
+      "import": "BlurReveal",
+      "severity": "info",
+      "message": "Potentially unused import: BlurReveal"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\index.ts",
+      "import": "useUIStore",
+      "severity": "info",
+      "message": "Potentially unused import: useUIStore"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\layout\\IntegratedHeader.tsx",
+      "import": "User",
+      "severity": "info",
+      "message": "Potentially unused import: User"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\layout\\IntegratedHeader.tsx",
+      "import": "Crown",
+      "severity": "info",
+      "message": "Potentially unused import: Crown"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\layout\\ProfileDropdown.tsx",
+      "import": "Eye",
+      "severity": "info",
+      "message": "Potentially unused import: Eye"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\layout\\ProfileDropdown.tsx",
+      "import": "Heart",
+      "severity": "info",
+      "message": "Potentially unused import: Heart"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\marketplace\\AdaptiveGridSystem.tsx",
+      "import": "Share2",
+      "severity": "info",
+      "message": "Potentially unused import: Share2"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\marketplace\\AdaptiveGridSystem.tsx",
+      "import": "Settings",
+      "severity": "info",
+      "message": "Potentially unused import: Settings"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\marketplace\\AdaptiveGridSystem.tsx",
+      "import": "Users",
+      "severity": "info",
+      "message": "Potentially unused import: Users"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\marketplace\\beginner\\BeginnerGuide.tsx",
+      "import": "BookOpen",
+      "severity": "info",
+      "message": "Potentially unused import: BookOpen"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\marketplace\\beginner\\PopularCollections.tsx",
+      "import": "React",
+      "severity": "info",
+      "message": "Potentially unused import: React"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\marketplace\\beginner\\SimplifiedFilters.tsx",
+      "import": "X",
+      "severity": "info",
+      "message": "Potentially unused import: X"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\marketplace\\HoloNFTCard.tsx",
+      "import": "Eye",
+      "severity": "info",
+      "message": "Potentially unused import: Eye"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\marketplace\\MetricsWindowManager.tsx",
+      "import": "Bell",
+      "severity": "info",
+      "message": "Potentially unused import: Bell"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\marketplace\\MetricsWindowManager.tsx",
+      "import": "Heart",
+      "severity": "info",
+      "message": "Potentially unused import: Heart"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\marketplace\\MetricsWindowManager.tsx",
+      "import": "Users",
+      "severity": "info",
+      "message": "Potentially unused import: Users"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\marketplace\\pro\\ActivityFeed.tsx",
+      "import": "Eye",
+      "severity": "info",
+      "message": "Potentially unused import: Eye"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\marketplace\\pro\\ActivityFeed.tsx",
+      "import": "RefreshCw",
+      "severity": "info",
+      "message": "Potentially unused import: RefreshCw"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\marketplace\\pro\\ActivityFeed.tsx",
+      "import": "Filter",
+      "severity": "info",
+      "message": "Potentially unused import: Filter"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\marketplace\\pro\\AdvancedFilters.tsx",
+      "import": "X",
+      "severity": "info",
+      "message": "Potentially unused import: X"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\marketplace\\pro\\OrderBook.tsx",
+      "import": "AnimatePresence",
+      "severity": "info",
+      "message": "Potentially unused import: AnimatePresence"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\marketplace\\pro\\PriceChart.tsx",
+      "import": "LineChart",
+      "severity": "info",
+      "message": "Potentially unused import: LineChart"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\marketplace\\pro\\PriceChart.tsx",
+      "import": "Line",
+      "severity": "info",
+      "message": "Potentially unused import: Line"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\marketplace\\pro\\QuickTrade.tsx",
+      "import": "ArrowUpDown",
+      "severity": "info",
+      "message": "Potentially unused import: ArrowUpDown"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\marketplace\\pro\\QuickTrade.tsx",
+      "import": "Check",
+      "severity": "info",
+      "message": "Potentially unused import: Check"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\marketplace\\pro\\Watchlist.tsx",
+      "import": "Eye",
+      "severity": "info",
+      "message": "Potentially unused import: Eye"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\marketplace\\ProTools.tsx",
+      "import": "Clock",
+      "severity": "info",
+      "message": "Potentially unused import: Clock"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\marketplace\\ProTools.tsx",
+      "import": "User",
+      "severity": "info",
+      "message": "Potentially unused import: User"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\marketplace\\ProTools.tsx",
+      "import": "Sparkles",
+      "severity": "info",
+      "message": "Potentially unused import: Sparkles"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\marketplace\\ProTools.tsx",
+      "import": "Zap",
+      "severity": "info",
+      "message": "Potentially unused import: Zap"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\marketplace\\ProTools.tsx",
+      "import": "Star",
+      "severity": "info",
+      "message": "Potentially unused import: Star"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\marketplace\\ProTools.tsx",
+      "import": "CheckCircle",
+      "severity": "info",
+      "message": "Potentially unused import: CheckCircle"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\marketplace\\Workspace\\LayoutPresets.tsx",
+      "import": "Plus",
+      "severity": "info",
+      "message": "Potentially unused import: Plus"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\marketplace\\Workspace\\PanelCard.tsx",
+      "import": "useDragControls",
+      "severity": "info",
+      "message": "Potentially unused import: useDragControls"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\marketplace\\Workspace\\panels\\CollectionStats.tsx",
+      "import": "BarChart2",
+      "severity": "info",
+      "message": "Potentially unused import: BarChart2"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\marketplace\\Workspace\\WorkspaceContainer.tsx",
+      "import": "AnimatePresence",
+      "severity": "info",
+      "message": "Potentially unused import: AnimatePresence"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\marketplace\\Workspace\\WorkspaceGrid.tsx",
+      "import": "Wallet",
+      "severity": "info",
+      "message": "Potentially unused import: Wallet"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\marketplace\\WorkspacePanel.tsx",
+      "import": "Maximize2",
+      "severity": "info",
+      "message": "Potentially unused import: Maximize2"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\micro\\LoadingSkeleton.tsx",
+      "import": "React",
+      "severity": "info",
+      "message": "Potentially unused import: React"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\micro\\SuccessAnimation.tsx",
+      "import": "React",
+      "severity": "info",
+      "message": "Potentially unused import: React"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\micro\\Toast.tsx",
+      "import": "Sparkles",
+      "severity": "info",
+      "message": "Potentially unused import: Sparkles"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\navigation\\Breadcrumbs.tsx",
+      "import": "React",
+      "severity": "info",
+      "message": "Potentially unused import: React"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\navigation\\MenuButton.tsx",
+      "import": "React",
+      "severity": "info",
+      "message": "Potentially unused import: React"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\navigation\\MobileNavigation.tsx",
+      "import": "Search",
+      "severity": "info",
+      "message": "Potentially unused import: Search"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\navigation\\MobileNavigation.tsx",
+      "import": "Bell",
+      "severity": "info",
+      "message": "Potentially unused import: Bell"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\navigation\\QuickNav.tsx",
+      "import": "Wallet",
+      "severity": "info",
+      "message": "Potentially unused import: Wallet"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\navigation\\QuickNav.tsx",
+      "import": "Upload",
+      "severity": "info",
+      "message": "Potentially unused import: Upload"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\navigation\\QuickNav.tsx",
+      "import": "Grid",
+      "severity": "info",
+      "message": "Potentially unused import: Grid"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\navigation\\QuickNav.tsx",
+      "import": "Zap",
+      "severity": "info",
+      "message": "Potentially unused import: Zap"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\navigation\\QuickNav.tsx",
+      "import": "Star",
+      "severity": "info",
+      "message": "Potentially unused import: Star"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\navigation\\Sidebar.tsx",
+      "import": "Shield",
+      "severity": "info",
+      "message": "Potentially unused import: Shield"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\navigation\\Sidebar.tsx",
+      "import": "Menu",
+      "severity": "info",
+      "message": "Potentially unused import: Menu"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\navigation\\Sidebar.tsx",
+      "import": "Award",
+      "severity": "info",
+      "message": "Potentially unused import: Award"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\nft\\CollectionHeader.tsx",
+      "import": "ExternalLink",
+      "severity": "info",
+      "message": "Potentially unused import: ExternalLink"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\nft\\NFTCard.tsx",
+      "import": "ExternalLink",
+      "severity": "info",
+      "message": "Potentially unused import: ExternalLink"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\nft\\NFTCard.tsx",
+      "import": "Share2",
+      "severity": "info",
+      "message": "Potentially unused import: Share2"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\nft\\NFTDetail.tsx",
+      "import": "MoreHorizontal",
+      "severity": "info",
+      "message": "Potentially unused import: MoreHorizontal"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\nft\\NFTDetail.tsx",
+      "import": "TrendingUp",
+      "severity": "info",
+      "message": "Potentially unused import: TrendingUp"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\nft\\NFTDetail.tsx",
+      "import": "TrendingDown",
+      "severity": "info",
+      "message": "Potentially unused import: TrendingDown"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\nft\\NFTList.tsx",
+      "import": "ExternalLink",
+      "severity": "info",
+      "message": "Potentially unused import: ExternalLink"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\notifications\\PremiumChat.tsx",
+      "import": "Shield",
+      "severity": "info",
+      "message": "Potentially unused import: Shield"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\notifications\\PremiumChat.tsx",
+      "import": "Star",
+      "severity": "info",
+      "message": "Potentially unused import: Star"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\notifications\\PremiumChat.tsx",
+      "import": "Clock",
+      "severity": "info",
+      "message": "Potentially unused import: Clock"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\notifications\\PremiumChat.tsx",
+      "import": "Pin",
+      "severity": "info",
+      "message": "Potentially unused import: Pin"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\notifications\\PremiumChat.tsx",
+      "import": "Bell",
+      "severity": "info",
+      "message": "Potentially unused import: Bell"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\notifications\\PremiumChat.tsx",
+      "import": "Heart",
+      "severity": "info",
+      "message": "Potentially unused import: Heart"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\notifications\\PremiumChat.tsx",
+      "import": "TrendingUp",
+      "severity": "info",
+      "message": "Potentially unused import: TrendingUp"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\notifications\\PremiumChat.tsx",
+      "import": "Award",
+      "severity": "info",
+      "message": "Potentially unused import: Award"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\notifications\\PremiumNotifications.tsx",
+      "import": "Gift",
+      "severity": "info",
+      "message": "Potentially unused import: Gift"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\notifications\\PremiumNotifications.tsx",
+      "import": "MessageSquare",
+      "severity": "info",
+      "message": "Potentially unused import: MessageSquare"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\notifications\\PremiumNotifications.tsx",
+      "import": "Heart",
+      "severity": "info",
+      "message": "Potentially unused import: Heart"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\notifications\\PremiumNotifications.tsx",
+      "import": "Star",
+      "severity": "info",
+      "message": "Potentially unused import: Star"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\notifications\\PremiumNotifications.tsx",
+      "import": "Zap",
+      "severity": "info",
+      "message": "Potentially unused import: Zap"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\notifications\\PremiumNotifications.tsx",
+      "import": "Shield",
+      "severity": "info",
+      "message": "Potentially unused import: Shield"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\notifications\\PremiumNotifications.tsx",
+      "import": "Clock",
+      "severity": "info",
+      "message": "Potentially unused import: Clock"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\notifications\\PremiumNotifications.tsx",
+      "import": "ExternalLink",
+      "severity": "info",
+      "message": "Potentially unused import: ExternalLink"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\notifications\\PremiumNotifications.tsx",
+      "import": "ChevronDown",
+      "severity": "info",
+      "message": "Potentially unused import: ChevronDown"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\notifications\\PremiumNotifications.tsx",
+      "import": "Filter",
+      "severity": "info",
+      "message": "Potentially unused import: Filter"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\pets\\PetDetailProvenance.tsx",
+      "import": "Heart",
+      "severity": "info",
+      "message": "Potentially unused import: Heart"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\premium\\PremiumBadge.tsx",
+      "import": "Zap",
+      "severity": "info",
+      "message": "Potentially unused import: Zap"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\premium\\PremiumSupport.tsx",
+      "import": "Rocket",
+      "severity": "info",
+      "message": "Potentially unused import: Rocket"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\premium\\PremiumSupport.tsx",
+      "import": "Gift",
+      "severity": "info",
+      "message": "Potentially unused import: Gift"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\premium\\PremiumSupport.tsx",
+      "import": "Calendar",
+      "severity": "info",
+      "message": "Potentially unused import: Calendar"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\premium\\PremiumSupport.tsx",
+      "import": "Lock",
+      "severity": "info",
+      "message": "Potentially unused import: Lock"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\premium\\ProfileStats.tsx",
+      "import": "TrendingDown",
+      "severity": "info",
+      "message": "Potentially unused import: TrendingDown"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\premium\\ProfileStats.tsx",
+      "import": "Clock",
+      "severity": "info",
+      "message": "Potentially unused import: Clock"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\premium\\SubscriptionTiers.tsx",
+      "import": "Zap",
+      "severity": "info",
+      "message": "Potentially unused import: Zap"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\premium\\SubscriptionTiers.tsx",
+      "import": "Shield",
+      "severity": "info",
+      "message": "Potentially unused import: Shield"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\premium\\SubscriptionTiers.tsx",
+      "import": "Gift",
+      "severity": "info",
+      "message": "Potentially unused import: Gift"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\premium\\SubscriptionTiers.tsx",
+      "import": "Globe",
+      "severity": "info",
+      "message": "Potentially unused import: Globe"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\premium\\SubscriptionTiers.tsx",
+      "import": "Clock",
+      "severity": "info",
+      "message": "Potentially unused import: Clock"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\premium\\SubscriptionTiers.tsx",
+      "import": "Award",
+      "severity": "info",
+      "message": "Potentially unused import: Award"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\premium\\SubscriptionTiers.tsx",
+      "import": "Coins",
+      "severity": "info",
+      "message": "Potentially unused import: Coins"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\profile\\PremiumProfile.tsx",
+      "import": "ChevronDown",
+      "severity": "info",
+      "message": "Potentially unused import: ChevronDown"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\profile\\ProfileDashboard.tsx",
+      "import": "Clock",
+      "severity": "info",
+      "message": "Potentially unused import: Clock"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\profile\\ProfileDashboard.tsx",
+      "import": "DollarSign",
+      "severity": "info",
+      "message": "Potentially unused import: DollarSign"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\profile\\ProfileDashboard.tsx",
+      "import": "Users",
+      "severity": "info",
+      "message": "Potentially unused import: Users"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\profile\\ProfileDashboard.tsx",
+      "import": "Heart",
+      "severity": "info",
+      "message": "Potentially unused import: Heart"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\profile\\ProfileDashboard.tsx",
+      "import": "Eye",
+      "severity": "info",
+      "message": "Potentially unused import: Eye"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\profile\\ProfileDashboard.tsx",
+      "import": "ArrowUpRight",
+      "severity": "info",
+      "message": "Potentially unused import: ArrowUpRight"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\profile\\ProfileDashboard.tsx",
+      "import": "Gift",
+      "severity": "info",
+      "message": "Potentially unused import: Gift"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\profile\\ProfileDashboard.tsx",
+      "import": "Sparkles",
+      "severity": "info",
+      "message": "Potentially unused import: Sparkles"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\profile\\ProfilePage.tsx",
+      "import": "Eye",
+      "severity": "info",
+      "message": "Potentially unused import: Eye"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\profile\\ProfilePage.tsx",
+      "import": "Twitter",
+      "severity": "info",
+      "message": "Potentially unused import: Twitter"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\profile\\ProfilePage.tsx",
+      "import": "Instagram",
+      "severity": "info",
+      "message": "Potentially unused import: Instagram"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\pwa\\PWAInstallPrompt.tsx",
+      "import": "Check",
+      "severity": "info",
+      "message": "Potentially unused import: Check"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\react-bits\\BlurReveal.tsx",
+      "import": "useEffect",
+      "severity": "info",
+      "message": "Potentially unused import: useEffect"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\react-bits\\BlurReveal.tsx",
+      "import": "useState",
+      "severity": "info",
+      "message": "Potentially unused import: useState"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\safes\\SafesPage.tsx",
+      "import": "AnimatePresence",
+      "severity": "info",
+      "message": "Potentially unused import: AnimatePresence"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\safes\\SafesPage.tsx",
+      "import": "TrendingUp",
+      "severity": "info",
+      "message": "Potentially unused import: TrendingUp"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\safes\\SafesPage.tsx",
+      "import": "Sparkles",
+      "severity": "info",
+      "message": "Potentially unused import: Sparkles"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\safes\\SafesPage.tsx",
+      "import": "ExternalLink",
+      "severity": "info",
+      "message": "Potentially unused import: ExternalLink"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\safes\\SafesPage.tsx",
+      "import": "Share2",
+      "severity": "info",
+      "message": "Potentially unused import: Share2"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\safes\\SafesPage.tsx",
+      "import": "ChevronRight",
+      "severity": "info",
+      "message": "Potentially unused import: ChevronRight"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\safes\\SafesPage.tsx",
+      "import": "Calendar",
+      "severity": "info",
+      "message": "Potentially unused import: Calendar"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\search\\GlobalSearch.tsx",
+      "import": "Heart",
+      "severity": "info",
+      "message": "Potentially unused import: Heart"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\search\\GlobalSearch.tsx",
+      "import": "Filter",
+      "severity": "info",
+      "message": "Potentially unused import: Filter"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\search\\SearchButton.tsx",
+      "import": "React",
+      "severity": "info",
+      "message": "Potentially unused import: React"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\sections\\CreatorSpotlight\\index.tsx",
+      "import": "Image",
+      "severity": "info",
+      "message": "Potentially unused import: Image"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\sections\\FeaturesShowcase\\index.tsx",
+      "import": "Cloud",
+      "severity": "info",
+      "message": "Potentially unused import: Cloud"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\sections\\PremiumCollections\\index.tsx",
+      "import": "Users",
+      "severity": "info",
+      "message": "Potentially unused import: Users"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\sections\\PremiumHero\\index.tsx",
+      "import": "Image",
+      "severity": "info",
+      "message": "Potentially unused import: Image"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\sections\\PremiumHero\\index.tsx",
+      "import": "ChevronRight",
+      "severity": "info",
+      "message": "Potentially unused import: ChevronRight"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\sections\\PremiumHero\\index.tsx",
+      "import": "cn",
+      "severity": "info",
+      "message": "Potentially unused import: cn"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\sections\\TrendingNFTs\\index.tsx",
+      "import": "User",
+      "severity": "info",
+      "message": "Potentially unused import: User"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\sections\\TrendingNFTs\\index.tsx",
+      "import": "Image",
+      "severity": "info",
+      "message": "Potentially unused import: Image"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\shared\\Web3Provider.tsx",
+      "import": "formatAddress",
+      "severity": "info",
+      "message": "Potentially unused import: formatAddress"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\shared\\Web3Provider.tsx",
+      "import": "getWalletBalance",
+      "severity": "info",
+      "message": "Potentially unused import: getWalletBalance"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\shelter\\DonationWidget.tsx",
+      "import": "TrendingUp",
+      "severity": "info",
+      "message": "Potentially unused import: TrendingUp"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\social\\NFTComments.tsx",
+      "import": "MessageSquare",
+      "severity": "info",
+      "message": "Potentially unused import: MessageSquare"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\social\\NFTComments.tsx",
+      "import": "MoreVertical",
+      "severity": "info",
+      "message": "Potentially unused import: MoreVertical"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\social\\SocialFeed.tsx",
+      "import": "useEffect",
+      "severity": "info",
+      "message": "Potentially unused import: useEffect"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\social\\SocialFeed.tsx",
+      "import": "Award",
+      "severity": "info",
+      "message": "Potentially unused import: Award"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\social\\SocialFeed.tsx",
+      "import": "Star",
+      "severity": "info",
+      "message": "Potentially unused import: Star"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\social\\SocialFeed.tsx",
+      "import": "Filter",
+      "severity": "info",
+      "message": "Potentially unused import: Filter"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\social\\SocialFeed.tsx",
+      "import": "Sparkles",
+      "severity": "info",
+      "message": "Potentially unused import: Sparkles"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\social\\SocialFeed.tsx",
+      "import": "Clock",
+      "severity": "info",
+      "message": "Potentially unused import: Clock"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\social\\SocialFeed.tsx",
+      "import": "ExternalLink",
+      "severity": "info",
+      "message": "Potentially unused import: ExternalLink"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\social\\SocialFeed.tsx",
+      "import": "Music",
+      "severity": "info",
+      "message": "Potentially unused import: Music"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\social\\SocialFeed.tsx",
+      "import": "Lock",
+      "severity": "info",
+      "message": "Potentially unused import: Lock"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\social\\SocialFeed.tsx",
+      "import": "ThumbsUp",
+      "severity": "info",
+      "message": "Potentially unused import: ThumbsUp"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\social\\SocialFeed.tsx",
+      "import": "Rocket",
+      "severity": "info",
+      "message": "Potentially unused import: Rocket"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\TransactionAudit.tsx",
+      "import": "Filter",
+      "severity": "info",
+      "message": "Potentially unused import: Filter"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\TransactionAudit.tsx",
+      "import": "BarChart3",
+      "severity": "info",
+      "message": "Potentially unused import: BarChart3"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\TransactionAudit.tsx",
+      "import": "Wallet",
+      "severity": "info",
+      "message": "Potentially unused import: Wallet"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\TransactionAudit.tsx",
+      "import": "Lock",
+      "severity": "info",
+      "message": "Potentially unused import: Lock"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\TransactionAudit.tsx",
+      "import": "Unlock",
+      "severity": "info",
+      "message": "Potentially unused import: Unlock"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\TransactionAudit.tsx",
+      "import": "Users",
+      "severity": "info",
+      "message": "Potentially unused import: Users"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\TransactionAudit.tsx",
+      "import": "Globe",
+      "severity": "info",
+      "message": "Potentially unused import: Globe"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\TransactionAudit.tsx",
+      "import": "Award",
+      "severity": "info",
+      "message": "Potentially unused import: Award"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\TransactionAudit.tsx",
+      "import": "Cpu",
+      "severity": "info",
+      "message": "Potentially unused import: Cpu"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\utils\\cn.ts",
+      "import": "type ClassValue",
+      "severity": "info",
+      "message": "Potentially unused import: type ClassValue"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\workspace\\OrderBook.tsx",
+      "import": "AnimatePresence",
+      "severity": "info",
+      "message": "Potentially unused import: AnimatePresence"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\workspace\\ToolsDrawer.tsx",
+      "import": "cn",
+      "severity": "info",
+      "message": "Potentially unused import: cn"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\components\\workspace\\WorkspaceWidget.tsx",
+      "import": "Maximize2",
+      "severity": "info",
+      "message": "Potentially unused import: Maximize2"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\core\\animation\\useOptimizedAnimation.ts",
+      "import": "useMemo",
+      "severity": "info",
+      "message": "Potentially unused import: useMemo"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\core\\glass\\Glass.tsx",
+      "import": "useGlassHover",
+      "severity": "info",
+      "message": "Potentially unused import: useGlassHover"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\core\\glass\\useGlassPhysics.ts",
+      "import": "useCallback",
+      "severity": "info",
+      "message": "Potentially unused import: useCallback"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\create\\create\\page.tsx",
+      "import": "Image",
+      "severity": "info",
+      "message": "Potentially unused import: Image"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\dashboard\\page.tsx",
+      "import": "Image",
+      "severity": "info",
+      "message": "Potentially unused import: Image"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\lib\\utils.ts",
+      "import": "type ClassValue",
+      "severity": "info",
+      "message": "Potentially unused import: type ClassValue"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\market\\page.tsx",
+      "import": "TrendingUp",
+      "severity": "info",
+      "message": "Potentially unused import: TrendingUp"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\market\\page.tsx",
+      "import": "X",
+      "severity": "info",
+      "message": "Potentially unused import: X"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\market\\page.tsx",
+      "import": "HelpIcon",
+      "severity": "info",
+      "message": "Potentially unused import: HelpIcon"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\profile\\page.tsx",
+      "import": "Heart",
+      "severity": "info",
+      "message": "Potentially unused import: Heart"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\safes\\page.tsx",
+      "import": "ExternalLink",
+      "severity": "info",
+      "message": "Potentially unused import: ExternalLink"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\safes\\page.tsx",
+      "import": "Calendar",
+      "severity": "info",
+      "message": "Potentially unused import: Calendar"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\shelter\\page.tsx",
+      "import": "MapPin",
+      "severity": "info",
+      "message": "Potentially unused import: MapPin"
+    },
+    {
+      "type": "potentially-unused-import",
+      "file": "app\\utils\\RenderDebugger.tsx",
+      "import": "ChevronDown",
+      "severity": "info",
+      "message": "Potentially unused import: ChevronDown"
+    }
+  ]
+}

@@ -1,0 +1,908 @@
+{
+  "timestamp": "2025-12-27T02:33:31.833Z",
+  "summary": {
+    "components": 405,
+    "cssClasses": 1133,
+    "routes": 20,
+    "issues": 46
+  },
+  "issues": [
+    {
+      "type": "duplicate-component",
+      "name": "PremiumImageCard",
+      "severity": "warning",
+      "files": [
+        "app\\components\\core\\PremiumCard.tsx",
+        "app\\components\\core\\PremiumImageCard.tsx"
+      ],
+      "message": "Duplicate component: PremiumImageCard"
+    },
+    {
+      "type": "duplicate-component",
+      "name": "AdvancedFilters",
+      "severity": "warning",
+      "files": [
+        "app\\components\\marketplace\\pro\\AdvancedFilters.tsx",
+        "app\\components\\marketplace\\ProTools.tsx"
+      ],
+      "message": "Duplicate component: AdvancedFilters"
+    },
+    {
+      "type": "duplicate-component",
+      "name": "PriceChart",
+      "severity": "warning",
+      "files": [
+        "app\\components\\marketplace\\pro\\PriceChart.tsx",
+        "app\\components\\marketplace\\ProTools.tsx"
+      ],
+      "message": "Duplicate component: PriceChart"
+    },
+    {
+      "type": "duplicate-component",
+      "name": "ActivityFeed",
+      "severity": "warning",
+      "files": [
+        "app\\components\\marketplace\\pro\\ActivityFeed.tsx",
+        "app\\components\\marketplace\\ProTools.tsx"
+      ],
+      "message": "Duplicate component: ActivityFeed"
+    },
+    {
+      "type": "duplicate-component",
+      "name": "ActivityFeed",
+      "severity": "warning",
+      "files": [
+        "app\\components\\marketplace\\pro\\ActivityFeed.tsx",
+        "app\\components\\marketplace\\Workspace\\panels\\ActivityFeed.tsx"
+      ],
+      "message": "Duplicate component: ActivityFeed"
+    },
+    {
+      "type": "duplicate-component",
+      "name": "OrderBook",
+      "severity": "warning",
+      "files": [
+        "app\\components\\marketplace\\pro\\OrderBook.tsx",
+        "app\\components\\marketplace\\Workspace\\panels\\OrderBook.tsx"
+      ],
+      "message": "Duplicate component: OrderBook"
+    },
+    {
+      "type": "duplicate-component",
+      "name": "PriceChart",
+      "severity": "warning",
+      "files": [
+        "app\\components\\marketplace\\pro\\PriceChart.tsx",
+        "app\\components\\marketplace\\Workspace\\panels\\PriceChart.tsx"
+      ],
+      "message": "Duplicate component: PriceChart"
+    },
+    {
+      "type": "duplicate-component",
+      "name": "Tooltip",
+      "severity": "warning",
+      "files": [
+        "app\\components\\marketplace\\beginner\\Tooltip.tsx",
+        "app\\components\\micro\\Tooltip.tsx"
+      ],
+      "message": "Duplicate component: Tooltip"
+    },
+    {
+      "type": "duplicate-component",
+      "name": "RippleButton",
+      "severity": "warning",
+      "files": [
+        "app\\components\\micro\\RippleButton.tsx",
+        "app\\components\\micro-interactions\\MicroInteractions.tsx"
+      ],
+      "message": "Duplicate component: RippleButton"
+    },
+    {
+      "type": "duplicate-component",
+      "name": "SuccessAnimation",
+      "severity": "warning",
+      "files": [
+        "app\\components\\micro\\SuccessAnimation.tsx",
+        "app\\components\\micro-interactions\\MicroInteractions.tsx"
+      ],
+      "message": "Duplicate component: SuccessAnimation"
+    },
+    {
+      "type": "duplicate-component",
+      "name": "ScrollReveal",
+      "severity": "warning",
+      "files": [
+        "app\\components\\micro\\ScrollReveal.tsx",
+        "app\\components\\micro-interactions\\MicroInteractions.tsx"
+      ],
+      "message": "Duplicate component: ScrollReveal"
+    },
+    {
+      "type": "duplicate-component",
+      "name": "LazyComponent",
+      "severity": "warning",
+      "files": [
+        "app\\components\\performance\\LazyComponent.tsx",
+        "app\\components\\performance\\VirtualGrid.tsx"
+      ],
+      "message": "Duplicate component: LazyComponent"
+    },
+    {
+      "type": "duplicate-component",
+      "name": "VirtualList",
+      "severity": "warning",
+      "files": [
+        "app\\components\\performance\\VirtualGrid.tsx",
+        "app\\components\\performance\\VirtualList.tsx"
+      ],
+      "message": "Duplicate component: VirtualList"
+    },
+    {
+      "type": "duplicate-component",
+      "name": "VirtualGrid",
+      "severity": "warning",
+      "files": [
+        "app\\components\\performance\\VirtualGrid.tsx",
+        "app\\components\\performance\\VirtualList.tsx"
+      ],
+      "message": "Duplicate component: VirtualGrid"
+    },
+    {
+      "type": "duplicate-component",
+      "name": "ActivityFeed",
+      "severity": "warning",
+      "files": [
+        "app\\components\\marketplace\\pro\\ActivityFeed.tsx",
+        "app\\components\\profile\\ActivityFeed.tsx"
+      ],
+      "message": "Duplicate component: ActivityFeed"
+    },
+    {
+      "type": "duplicate-component",
+      "name": "MagneticButton",
+      "severity": "warning",
+      "files": [
+        "app\\components\\micro-interactions\\MicroInteractions.tsx",
+        "app\\components\\react-bits\\MagneticButton.tsx"
+      ],
+      "message": "Duplicate component: MagneticButton"
+    },
+    {
+      "type": "duplicate-component",
+      "name": "PerformanceMonitor",
+      "severity": "warning",
+      "files": [
+        "app\\components\\performance\\PerformanceMonitor.tsx",
+        "app\\components\\shared\\PerformanceMonitor.tsx"
+      ],
+      "message": "Duplicate component: PerformanceMonitor"
+    },
+    {
+      "type": "duplicate-component",
+      "name": "PageTransition",
+      "severity": "warning",
+      "files": [
+        "app\\components\\layout\\PageTransition.tsx",
+        "app\\components\\transitions\\PageTransition.tsx"
+      ],
+      "message": "Duplicate component: PageTransition"
+    },
+    {
+      "type": "duplicate-component",
+      "name": "Avatar",
+      "severity": "warning",
+      "files": [
+        "app\\components\\profile\\Avatar.tsx",
+        "app\\components\\ui\\Avatar.tsx"
+      ],
+      "message": "Duplicate component: Avatar"
+    },
+    {
+      "type": "duplicate-component",
+      "name": "Tooltip",
+      "severity": "warning",
+      "files": [
+        "app\\components\\marketplace\\beginner\\Tooltip.tsx",
+        "app\\components\\ui\\Tooltip.tsx"
+      ],
+      "message": "Duplicate component: Tooltip"
+    },
+    {
+      "type": "duplicate-component",
+      "name": "OrderBook",
+      "severity": "warning",
+      "files": [
+        "app\\components\\marketplace\\pro\\OrderBook.tsx",
+        "app\\components\\workspace\\OrderBook.tsx"
+      ],
+      "message": "Duplicate component: OrderBook"
+    },
+    {
+      "type": "duplicate-component",
+      "name": "PriceChart",
+      "severity": "warning",
+      "files": [
+        "app\\components\\marketplace\\pro\\PriceChart.tsx",
+        "app\\components\\workspace\\PriceChart.tsx"
+      ],
+      "message": "Duplicate component: PriceChart"
+    },
+    {
+      "type": "duplicate-component",
+      "name": "ToolsDrawer",
+      "severity": "warning",
+      "files": [
+        "app\\components\\marketplace\\Workspace\\ToolsDrawer.tsx",
+        "app\\components\\workspace\\ToolsDrawer.tsx"
+      ],
+      "message": "Duplicate component: ToolsDrawer"
+    },
+    {
+      "type": "duplicate-component",
+      "name": "WhaleTracker",
+      "severity": "warning",
+      "files": [
+        "app\\components\\marketplace\\Workspace\\panels\\WhaleTracker.tsx",
+        "app\\components\\workspace\\WhaleTracker.tsx"
+      ],
+      "message": "Duplicate component: WhaleTracker"
+    },
+    {
+      "type": "duplicate-component",
+      "name": "PerformanceMonitor",
+      "severity": "warning",
+      "files": [
+        "app\\components\\performance\\PerformanceMonitor.tsx",
+        "app\\core\\animation\\PerformanceMonitor.tsx"
+      ],
+      "message": "Duplicate component: PerformanceMonitor"
+    },
+    {
+      "type": "duplicate-component",
+      "name": "useTheme",
+      "severity": "warning",
+      "files": [
+        "app\\components\\shared\\ThemeProvider.tsx",
+        "app\\core\\color\\useColorEngine.tsx"
+      ],
+      "message": "Duplicate component: useTheme"
+    },
+    {
+      "type": "duplicate-component",
+      "name": "GlassCard",
+      "severity": "warning",
+      "files": [
+        "app\\components\\core\\GlassCard.tsx",
+        "app\\core\\glass\\Glass.tsx"
+      ],
+      "message": "Duplicate component: GlassCard"
+    },
+    {
+      "type": "duplicate-component",
+      "name": "VirtualizedList",
+      "severity": "warning",
+      "files": [
+        "app\\components\\performance\\VirtualizedList.tsx",
+        "app\\core\\memory\\VirtualizedGrid.tsx"
+      ],
+      "message": "Duplicate component: VirtualizedList"
+    },
+    {
+      "type": "duplicate-component",
+      "name": "CreatePage",
+      "severity": "warning",
+      "files": [
+        "app\\create\\create\\page.tsx",
+        "app\\create\\page.tsx"
+      ],
+      "message": "Duplicate component: CreatePage"
+    },
+    {
+      "type": "duplicate-component",
+      "name": "preloadComponent",
+      "severity": "warning",
+      "files": [
+        "app\\components\\performance\\CodeSplitting.tsx",
+        "app\\lib\\dynamic-imports.tsx"
+      ],
+      "message": "Duplicate component: preloadComponent"
+    },
+    {
+      "type": "duplicate-component",
+      "name": "metadata",
+      "severity": "warning",
+      "files": [
+        "app\\layout.tsx",
+        "app\\market\\layout.tsx"
+      ],
+      "message": "Duplicate component: metadata"
+    },
+    {
+      "type": "duplicate-component",
+      "name": "ProfilePage",
+      "severity": "warning",
+      "files": [
+        "app\\components\\profile\\ProfilePage.tsx",
+        "app\\profile\\page.tsx"
+      ],
+      "message": "Duplicate component: ProfilePage"
+    },
+    {
+      "type": "duplicate-component",
+      "name": "SafesPage",
+      "severity": "warning",
+      "files": [
+        "app\\components\\safes\\SafesPage.tsx",
+        "app\\safes\\page.tsx"
+      ],
+      "message": "Duplicate component: SafesPage"
+    },
+    {
+      "type": "duplicate-component",
+      "name": "PerformanceMonitor",
+      "severity": "warning",
+      "files": [
+        "app\\components\\performance\\PerformanceMonitor.tsx",
+        "app\\utils\\RenderLogger.tsx"
+      ],
+      "message": "Duplicate component: PerformanceMonitor"
+    },
+    {
+      "type": "duplicate-css-class",
+      "name": "positive",
+      "severity": "info",
+      "files": [
+        "app\\styles\\adaptive-grid.css",
+        "app\\styles\\analytics-theme.css"
+      ],
+      "message": "CSS class defined in multiple files: .positive"
+    },
+    {
+      "type": "duplicate-css-class",
+      "name": "scroll-smooth",
+      "severity": "info",
+      "files": [
+        "app\\core\\animation\\performance.css",
+        "app\\styles\\animations-optimized.css"
+      ],
+      "message": "CSS class defined in multiple files: .scroll-smooth"
+    },
+    {
+      "type": "duplicate-css-class",
+      "name": "animate-fade-in",
+      "severity": "info",
+      "files": [
+        "app\\core\\animation\\performance.css",
+        "app\\styles\\animations.css"
+      ],
+      "message": "CSS class defined in multiple files: .animate-fade-in"
+    },
+    {
+      "type": "duplicate-css-class",
+      "name": "animate-fade-in-up",
+      "severity": "info",
+      "files": [
+        "app\\core\\animation\\performance.css",
+        "app\\styles\\animations.css"
+      ],
+      "message": "CSS class defined in multiple files: .animate-fade-in-up"
+    },
+    {
+      "type": "duplicate-css-class",
+      "name": "animate-fade-in-down",
+      "severity": "info",
+      "files": [
+        "app\\core\\animation\\performance.css",
+        "app\\styles\\animations.css"
+      ],
+      "message": "CSS class defined in multiple files: .animate-fade-in-down"
+    },
+    {
+      "type": "duplicate-css-class",
+      "name": "animate-scale-in",
+      "severity": "info",
+      "files": [
+        "app\\core\\animation\\performance.css",
+        "app\\styles\\animations.css"
+      ],
+      "message": "CSS class defined in multiple files: .animate-scale-in"
+    },
+    {
+      "type": "duplicate-css-class",
+      "name": "animate-slide-in-left",
+      "severity": "info",
+      "files": [
+        "app\\core\\animation\\performance.css",
+        "app\\styles\\animations.css"
+      ],
+      "message": "CSS class defined in multiple files: .animate-slide-in-left"
+    },
+    {
+      "type": "duplicate-css-class",
+      "name": "animate-slide-in-right",
+      "severity": "info",
+      "files": [
+        "app\\core\\animation\\performance.css",
+        "app\\styles\\animations.css"
+      ],
+      "message": "CSS class defined in multiple files: .animate-slide-in-right"
+    },
+    {
+      "type": "duplicate-css-class",
+      "name": "animate-spin",
+      "severity": "info",
+      "files": [
+        "app\\core\\animation\\performance.css",
+        "app\\styles\\animations.css"
+      ],
+      "message": "CSS class defined in multiple files: .animate-spin"
+    },
+    {
+      "type": "duplicate-css-class",
+      "name": "hover-lift",
+      "severity": "info",
+      "files": [
+        "app\\core\\animation\\performance.css",
+        "app\\styles\\animations.css"
+      ],
+      "message": "CSS class defined in multiple files: .hover-lift"
+    },
+    {
+      "type": "multiple-assistants",
+      "severity": "info",
+      "files": [
+        "app\\components\\ai\\AIAssistant.tsx",
+        "app\\components\\ai\\AIAssistantWidget.tsx",
+        "app\\components\\ai\\AICat.tsx",
+        "app\\components\\create\\DisneyCat.tsx",
+        "app\\components\\create\\DisneyCatAssistantEnhanced.tsx",
+        "app\\components\\marketplace\\beginner\\EducationalBanners.tsx",
+        "app\\components\\micro-interactions\\MicroInteractions.tsx",
+        "app\\components\\micro-interactions\\MicroInteractions.tsx",
+        "app\\components\\notifications\\PremiumNotifications.tsx",
+        "app\\components\\pwa\\OfflineIndicator.tsx",
+        "app\\core\\color\\ThemeSelector.tsx"
+      ],
+      "message": "Found 11 assistant-related components"
+    },
+    {
+      "type": "multiple-wizards",
+      "severity": "info",
+      "files": [
+        "app\\components\\create\\CreateWizard.tsx",
+        "app\\components\\create\\EnhancedCreateWizard.tsx",
+        "app\\components\\create\\FormWizard.tsx"
+      ],
+      "message": "Found 3 wizard-related components"
+    }
+  ],
+  "routes": [
+    "/(main)/market/[id]",
+    "/(main)/market/collection/[slug]",
+    "/(main)/settings",
+    "/about",
+    "/admin",
+    "/analytics",
+    "/create",
+    "/create/create",
+    "/dashboard",
+    "/evolution",
+    "/feed",
+    "/games",
+    "/impact",
+    "/market",
+    "/pet/[id]",
+    "/profile",
+    "/safes",
+    "/shelter",
+    "/wallet",
+    "app"
+  ],
+  "components": [
+    "AIAssistant",
+    "AIAssistantWidget",
+    "AICat",
+    "AIGeneration",
+    "AboutPage",
+    "AccessibilityDevTools",
+    "AccessibilityTester",
+    "AccessibleAlert",
+    "AccessibleButton",
+    "AccessibleFormField",
+    "AccessibleLink",
+    "AccessibleModal",
+    "AccessibleProgress",
+    "AccessibleTabs",
+    "AccountSecurity",
+    "AchievementBadge",
+    "AchievementsSection",
+    "ActivityFeed",
+    "ActivityItem",
+    "ActivityTimeline",
+    "AdaptiveGridSystem",
+    "AdminDashboard",
+    "AdvancedFilters",
+    "AnalyticsPage",
+    "AnimatedCounter",
+    "AnimatedInput",
+    "AnimatedNumber",
+    "Atmosphere",
+    "AuditLog",
+    "Aurora",
+    "Avatar",
+    "AvatarGroup",
+    "BackNavigation",
+    "BackgroundEffects",
+    "Badge",
+    "BeginnerGuide",
+    "BlurReveal",
+    "BlurRevealStagger",
+    "BlurRevealText",
+    "Breadcrumbs",
+    "BreederHero",
+    "BreederProfile3D",
+    "Button",
+    "ButtonLoader",
+    "Card",
+    "CardContent",
+    "CardDescription",
+    "CardFooter",
+    "CardHeader",
+    "CardSkeleton",
+    "CardTitle",
+    "ClickEffect",
+    "Clickable",
+    "ClientLayout",
+    "ClientPrefetchWrapper",
+    "CollectionHeader",
+    "CollectionPage",
+    "CollectionStats",
+    "ColorProvider",
+    "CookieConsent",
+    "CreateCTA",
+    "CreateNavButton",
+    "CreatePage",
+    "CreateWizard",
+    "CreatorSpotlight",
+    "DashboardPage",
+    "DecryptedText",
+    "DecryptedTextLines",
+    "DetailSkeleton",
+    "DevBanner",
+    "DirectMessaging",
+    "DisneyCat",
+    "DisneyCatAssistantEnhanced",
+    "DonationWidget",
+    "DraggableWidget",
+    "DynamicActivityFeed",
+    "DynamicAdminDashboard",
+    "DynamicAmbientLight",
+    "DynamicOrderBook",
+    "DynamicPerformanceMonitor",
+    "DynamicPremiumAnalytics",
+    "DynamicPriceChart",
+    "EducationalBanners",
+    "EnhancedCreateWizard",
+    "EnhancedNFTCard",
+    "Error",
+    "ErrorBoundary",
+    "ErrorFallback",
+    "ErrorScreen",
+    "EvolutionDashboard",
+    "EvolutionPage",
+    "ExpensiveComponent",
+    "FPSCounter",
+    "FPSMonitor",
+    "FadeIn",
+    "FeatureShowcase",
+    "FeaturedHoloSection",
+    "FeaturesShowcase",
+    "FeedPage",
+    "FilterPanel",
+    "FinalCTA",
+    "FloatingActionButton",
+    "FloatingCreateButton",
+    "FloatingElements",
+    "FocusStyles",
+    "FormWizard",
+    "GamesPage",
+    "GenealogyTreeView",
+    "GlareNFTCard",
+    "GlareNFTGrid",
+    "GlareNFTMasonryGrid",
+    "Glass",
+    "GlassBadge",
+    "GlassButton",
+    "GlassCard",
+    "GlassInput",
+    "GlassPanel",
+    "GlassTextarea",
+    "GlobalSearch",
+    "GlowInput",
+    "GradientButton",
+    "GradientPreview",
+    "GuestAuthGateway",
+    "Header",
+    "HelpIcon",
+    "HelpModal",
+    "Highlights",
+    "HoloNFTCard",
+    "HoloNFTGrid",
+    "HomeHero",
+    "HomePage",
+    "HoverCard",
+    "HoverGlow",
+    "Icon",
+    "Icon3D",
+    "IconButton",
+    "ImageOptimizer",
+    "ImageUploader",
+    "ImpactPage",
+    "InlineLoader",
+    "Input",
+    "IntegratedHeader",
+    "InteractiveButton",
+    "LanguageSelector",
+    "LayoutPresets",
+    "LazyComponent",
+    "LazyImage",
+    "LazyOnView",
+    "LevelProgress",
+    "LiquidGlass",
+    "LiquidGlassBadge",
+    "LiquidGlassButton",
+    "LiquidGlassCard",
+    "LiquidGlassContainer",
+    "LiquidGlassDivider",
+    "LiquidGlassInput",
+    "LiquidGlassPanel",
+    "LiquidGlassSkeleton",
+    "LiquidGlassTextarea",
+    "LiveTicker",
+    "LoadingFallback",
+    "LoadingSkeleton",
+    "LoadingSpinner",
+    "Logo",
+    "MagneticButton",
+    "MainError",
+    "MainLayout",
+    "MainLoading",
+    "MarketError",
+    "MarketLayout",
+    "MarketLoading",
+    "MarketPage",
+    "MarketplaceLayout",
+    "MarketplaceLoading",
+    "MemoizedItem",
+    "MemoizedList",
+    "MenuButton",
+    "MetadataForm",
+    "Metric",
+    "MetricsPanel",
+    "MetricsWindowManager",
+    "MintPreview",
+    "MobileNavProvider",
+    "MobileNavigation",
+    "Modal",
+    "NFTCard",
+    "NFTCollectionGrid",
+    "NFTComments",
+    "NFTDetail",
+    "NFTDetailLoading",
+    "NFTDetailPage",
+    "NFTGrid",
+    "NFTList",
+    "NFTMinter",
+    "NavigationProvider",
+    "NetworkSelect",
+    "NeuroParticles",
+    "NexusProvider",
+    "NotFound",
+    "OfflineIndicator",
+    "OptimizedButton",
+    "OptimizedChart",
+    "OptimizedDiv",
+    "OptimizedFilterPanel",
+    "OptimizedImage",
+    "OptimizedImageLoader",
+    "OptimizedLazyImage",
+    "OptimizedMotion",
+    "OptimizedNFTGrid",
+    "OptimizedSection",
+    "OptimizedSpan",
+    "OrderBook",
+    "OverlayLoader",
+    "PWAInstallPrompt",
+    "PageLoader",
+    "PageLoadingSkeleton",
+    "PageTransition",
+    "PanelCard",
+    "PerformanceMonitor",
+    "PerformanceOverlay",
+    "Pet3DGenerator",
+    "PetCard",
+    "PetDetailPage",
+    "PetDetailProvenance",
+    "PetopiaHelper",
+    "PopularCollections",
+    "PortfolioAnalytics",
+    "PortfolioChart",
+    "PremiumAnalytics",
+    "PremiumBadge",
+    "PremiumBenefits",
+    "PremiumButton",
+    "PremiumCard",
+    "PremiumChat",
+    "PremiumCollections",
+    "PremiumFeatures",
+    "PremiumHero",
+    "PremiumImageCard",
+    "PremiumNotifications",
+    "PremiumProfileHeader",
+    "PremiumSupport",
+    "Preview3D",
+    "PriceChart",
+    "PriceRangeSlider",
+    "ProToolsSidebar",
+    "ProfileCard",
+    "ProfileDashboard",
+    "ProfileDropdown",
+    "ProfilePage",
+    "ProfileSkeleton",
+    "ProfileStats",
+    "ProgressIndicator",
+    "ProgressiveImage",
+    "Providers",
+    "PullToRefresh",
+    "PulseIndicator",
+    "QuickActionsBar",
+    "QuickNav",
+    "QuickOnboarding",
+    "QuickTrade",
+    "RarityFilter",
+    "RenderDebugger",
+    "ReputationBadges",
+    "RippleButton",
+    "RootLayout",
+    "RouteErrorBoundary",
+    "SafesPage",
+    "ScrollReveal",
+    "SearchButton",
+    "SearchProvider",
+    "Select",
+    "SettingsLoading",
+    "SettingsPage",
+    "ShelterPage",
+    "Sidebar",
+    "SimplifiedFilters",
+    "SiteAudit",
+    "Skeleton",
+    "SkeletonCard",
+    "SkipToContent",
+    "Slider",
+    "SmoothScrollProvider",
+    "SocialFeed",
+    "SocialProof",
+    "SoundButton",
+    "SoundCard",
+    "SoundControls",
+    "SoundIntegration",
+    "SoundProvider",
+    "SoundSettings",
+    "SoundToggle",
+    "SovereignHeader",
+    "SpotlightCard",
+    "StaggerContainer",
+    "StaggerItem",
+    "StatsCounter",
+    "StatusFilter",
+    "StripWidget",
+    "StyleSelector",
+    "SubscriptionTiers",
+    "SuccessAnimation",
+    "SuspenseWrapper",
+    "Switch",
+    "ThemeDropdown",
+    "ThemePanel",
+    "ThemeProvider",
+    "ThemeSelector",
+    "TiltCard",
+    "TimeBasedIndicator",
+    "ToastProvider",
+    "TokenBalance",
+    "ToolboxPanel",
+    "ToolsDrawer",
+    "ToolsPanel",
+    "Tooltip",
+    "TradingModeSwitch",
+    "TraitFilters",
+    "TransactionAudit",
+    "TransactionMonitor",
+    "TrendingNFTs",
+    "TypewriterEffect",
+    "UploadZone",
+    "VirtualGrid",
+    "VirtualList",
+    "VirtualizedGrid",
+    "VirtualizedList",
+    "WaitlistForm",
+    "WalkingPaws",
+    "Wallet",
+    "WalletErrorScreen",
+    "Watchlist",
+    "Web3Provider",
+    "WhaleTracker",
+    "WidgetContainer",
+    "WorkspaceContainer",
+    "WorkspaceGrid",
+    "WorkspacePanel",
+    "WorkspaceToolsPanel",
+    "WorkspaceWidget",
+    "a11yChecklist",
+    "a11yTest",
+    "accessibleColors",
+    "availableWidgets",
+    "clearRenderLogs",
+    "contrastUtils",
+    "createMockNFT",
+    "createMockUser",
+    "createSelector",
+    "customRender",
+    "deepEqual",
+    "focusUtils",
+    "getRenderLogs",
+    "getRenderWarnings",
+    "lazyPage",
+    "lazyWithRetry",
+    "metadata",
+    "mockApiError",
+    "mockApiResponse",
+    "panelConfig",
+    "preloadComponent",
+    "preloadForRoute",
+    "preloadImage",
+    "preloadImages",
+    "preloadPremiumFeatures",
+    "setupUser",
+    "springConfigs",
+    "testA11y",
+    "useAnimationChecker",
+    "useAnnouncer",
+    "useBalanceWatcher",
+    "useBatchedUpdates",
+    "useClickEffect",
+    "useClickSound",
+    "useColorEngine",
+    "useDynamicColor",
+    "useFocusTrap",
+    "useFocusVisible",
+    "useGradient",
+    "useImageColors",
+    "useKeyboardNav",
+    "useKeyboardShortcuts",
+    "useMemoizedCallbacks",
+    "useMobileNav",
+    "useNavigation",
+    "useNetwork",
+    "useRenderLogger",
+    "useRovingTabIndex",
+    "useSearch",
+    "useSound",
+    "useTextScaling",
+    "useTheme",
+    "useThemeColors",
+    "useTimeBasedAccent",
+    "useTimeOfDay",
+    "useToast",
+    "useTransactionToast",
+    "useVirtualScroll",
+    "useVirtualizedScroll",
+    "useWeb3",
+    "useWorkspace",
+    "viewport",
+    "waitFor",
+    "withMemo",
+    "withRenderLog",
+    "withSound"
+  ]
+}

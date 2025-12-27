@@ -1,0 +1,15 @@
+name: Scheduled Accessibility Audits
+on:
+  schedule:
+    - cron: '0 9 * * 1' # Weekly on Mondays 9AM
+    - cron: '0 9 1 * *' # Monthly on 1st day
+    - cron: '0 9 1 */3 *' # Quarterly
+
+jobs:
+  full-audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: npm ci
+      - run: npm run test:accessibility
+      - run: npm run audit:full
