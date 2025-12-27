@@ -11,7 +11,7 @@ import {
   TrendingUp, Sparkles, BarChart3, Users, Play, ArrowRight,
   Search, Grid3x3, Zap, Upload, Shield, Star
 } from 'lucide-react'
-import { cn } from '@/app/lib/utils'
+import { cn } from '@/lib/utils'
 
 /* ============================================
    DEMO NFT DATA
