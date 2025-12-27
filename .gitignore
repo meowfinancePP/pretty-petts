@@ -74,8 +74,24 @@ tmp/
 *.jfq
 *.jkg
 *.mvk
+*.nvk
 *.nvg
 *.omg
+*.osr
+*.ova
+*.tef
+*.tvr
+*.uyo
+*.vfy
+*.wcq
+*.xhp
+*.xun
+
+# Large binary files (Next.js SWC, native modules)
+*.node
+*.win32-x64-msvc.node
+next-swc.*
+@next/swc-*
 
 # Keys
 *.pem
