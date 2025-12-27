@@ -39,11 +39,9 @@ export function preloadCriticalRoutes() {
     // Preload marketplace components (high traffic)
     import('@/app/market/page')
     
-    // Preload profile page
-    import('@/app/profile/page')
-    
-    // Preload create page
-    import('@/app/create/page')
+    // TODO: Uncomment when pages are created
+    // import('@/app/profile/page')
+    // import('@/app/create/page')
   }
 
   if ('requestIdleCallback' in window) {
